@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatGPT Efficiency Analysis</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <h1>🤖 ChatGPT Analysis</h1>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#methodology">Methodology</a></li>
+          <li><a href="#results">Results</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h2>ChatGPT Efficiency Analysis Platform</h2>
+        <p>Evaluating AI Performance Across Multiple Knowledge Domains</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="section">
+      <h2>Project Introduction</h2>
+      <p>
+        This project represents a comprehensive evaluation framework for analyzing ChatGPT's performance efficiency
+        across diverse knowledge domains. By combining modern web development technologies with advanced API integration
+        and data visualization techniques, we create an interactive platform that provides deep insights into AI model
+        performance characteristics.
+      </p>
+      <p style="margin-top: 1rem;">
+        The platform leverages a full-stack architecture integrating MongoDB for data persistence, Node.js for backend
+        middleware, WebSocket for real-time communication, and the ChatGPT API for generating responses. Through systematic
+        evaluation across History, Social Science, and Computer Security domains, we measure both accuracy metrics and
+        performance characteristics including response times, token usage, and consistency patterns.
+      </p>
+      <p style="margin-top: 1rem;">
+        Our methodology combines quantitative performance metrics with qualitative analysis, providing stakeholders with
+        actionable insights into ChatGPT's strengths and limitations. The interactive dashboard presents real-time data
+        visualization, enabling users to explore patterns and trends across different question categories and complexity levels.
+      </p>
+    </section>
+
+    <!-- Profile Section -->
+    <section id="profile" class="section">
+      <h2>Researcher Profiles</h2>
+      <div class="profile-grid">
+        <div class="profile-image">
+          👨‍💻
+        </div>
+        <div class="profile-content">
+          <h3>Arshyam Qais</h3>
+          <p>
+            I am a full-stack developer and AI researcher specializing in machine learning evaluation frameworks
+            and interactive data visualization. With a background in computer science and data analytics, I focus
+            on creating comprehensive assessment tools that bridge the gap between AI capabilities and practical
+            applications.
+          </p>
+          <p style="margin-top: 1rem;">
+            My technical expertise spans modern web technologies, database management, API integration, and
+            real-time communication systems. This project showcases my ability to design end-to-end solutions
+            that combine rigorous technical implementation with user-friendly interfaces for presenting complex
+            analytical results.
+          </p>
+          <h4 style="margin-top: 1.5rem; color: var(--primary-color);">Technical Background</h4>
+          <div class="tech-stack">
+            <span class="tech-badge">JavaScript/Node.js</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">WebSocket</span>
+            <span class="tech-badge">REST APIs</span>
+            <span class="tech-badge">Data Visualization</span>
+            <span class="tech-badge">ChatGPT API</span>
+            <span class="tech-badge">HTML/CSS</span>
+            <span class="tech-badge">Express.js</span>
+          </div>
+          <h3>Chirag Chodha</h3>
+          <p>
+            Chirag Chodha is a developer focused on backend systems, AI evaluation, and real-time data analysis. 
+            His work in this project involved building the API and server-side pipeline that evaluates ChatGPT’s performance across multiple domains.
+            This includes designing the /api/results endpoint, implementing the automated evaluation logic, 
+            calculating accuracy and response-time metrics, and integrating MongoDB and WebSockets for real-time updates and visualizations. 
+            Chirag’s contribution focuses on transforming raw model output into measurable insights about AI efficiency.
+          </p>
+          <h3>Ryan Ly</h3>
+          <p>
+            I am an Information Technology student with a strong foundation in troubleshooting and hardware testing. 
+            My technical experience includes working with SQL and VHDL, along with knowledge of HTML and JavaScript. 
+            I love expanding my skillset and constantly work towards improving my understanding of various topics.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Methodology Section -->
+    <section id="methodology" class="section">
+      <h2>ChatGPT Evaluation Framework</h2>
+
+      <h3>Research Approach</h3>
+      <p>
+        Our evaluation framework employs a multi-layered architecture designed to assess ChatGPT's performance
+        across various dimensions:
+      </p>
+      <ul class="methodology-list">
+        <li><strong>MongoDB Database:</strong> Stores questions, expected answers, ChatGPT responses, and performance metrics with flexible schema design</li>
+        <li><strong>Node.js Backend:</strong> Implements middleware for request handling, API orchestration, and data processing pipelines</li>
+        <li><strong>WebSocket Server:</strong> Enables real-time bidirectional communication for live performance monitoring and result streaming</li>
+        <li><strong>ChatGPT API Integration:</strong> Systematic querying with controlled parameters for consistent evaluation</li>
+        <li><strong>Analytics Engine:</strong> Calculates accuracy scores, response times, token efficiency, and consistency metrics</li>
+      </ul>
+
+      <h3>Dataset Overview</h3>
+      <p>
+        Our evaluation dataset comprises carefully curated questions spanning three distinct knowledge domains,
+        each selected to test different aspects of ChatGPT's capabilities:
+      </p>
+
+      <div class="dataset-grid">
+        <div class="dataset-card">
+          <h4>📚 History</h4>
+          <p>
+            Historical questions covering various periods, events, and figures. Tests factual accuracy,
+            chronological reasoning, and contextual understanding of historical narratives.
+          </p>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+            Sample topics: World Wars, Ancient Civilizations, Political Movements
+          </p>
+        </div>
+
+        <div class="dataset-card">
+          <h4>🧠 Social Science</h4>
+          <p>
+            Questions exploring psychological concepts, sociological theories, and behavioral patterns.
+            Evaluates nuanced understanding and ability to explain complex social phenomena.
+          </p>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+            Sample topics: Cognitive Psychology, Social Structures, Cultural Dynamics
+          </p>
+        </div>
+
+        <div class="dataset-card">
+          <h4>🔐 Computer Security</h4>
+          <p>
+            Technical questions about cybersecurity concepts, vulnerabilities, and best practices.
+            Tests technical accuracy and ability to explain complex security principles.
+          </p>
+          <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;">
+            Sample topics: Cryptography, Network Security, Threat Analysis
+          </p>
+        </div>
+      </div>
+
+      <h3>Evaluation Metrics</h3>
+      <ul class="methodology-list">
+        <li><strong>Accuracy Score:</strong> Semantic similarity between ChatGPT responses and expected answers</li>
+        <li><strong>Response Time:</strong> Latency measurements from request to complete response</li>
+        <li><strong>Domain Performance:</strong> Comparative analysis across History, Social Science, and Security</li>
+      </ul>
+    </section>
+
+    <!-- Results Section -->
+    <!-- Results Section -->
+<section id="results" class="section">
+  <h2>Results & Visualizations</h2>
+  <p>
+    <span class="status-indicator"></span>
+    Real-time performance data will be displayed here once the evaluation pipeline is active.
+  </p>
+
+  <h3>Accuracy by Domain</h3>
+  <div class="chart-container">
+    <canvas id="accuracyChart"></canvas>
+  </div>
+
+  <h3>Response Time Analysis</h3>
+  <div class="chart-container">
+    <canvas id="responseTimeChart"></canvas>
+  </div>
+
+  <!--<h3>Token Usage Efficiency</h3>
+  <div class="chart-container">
+     Optional: if you later add token usage, add another canvas here 
+    <p style="text-align:center; color:#999; font-style:italic;">Token usage chart not implemented.</p>
+  </div>-->
+
+  <h3>Performance Summary</h3>
+  <div class="chart-container">
+    <canvas id="summaryChart"></canvas>
+  </div>
+
+  <div id="results-summary" class="results-summary-text"></div>
+
+  <p style="margin-top: 2rem; font-style: italic; color: #666;">
+    Note: Charts will be populated dynamically using MongoDB data and real-time API responses.
+    Visualization libraries (Chart.js or D3.js) will render interactive graphs based on evaluation results.
+  </p>
+</section>
+
+    <!-- WebSocket Demo Section -->
+    <section id="websocket-demo" class="section">
+      <h2>WebSocket Live Demo</h2>
+
+      <p>Status: <strong id="ws-status">Not Connected</strong></p>
+
+      <div style="margin: 1rem 0;">
+        <input id="ws-input" type="text" placeholder="Type a message..." style="padding:8px; width:70%;">
+        <button onclick="sendWSMessage()" style="padding:8px;">Send</button>
+      </div>
+
+      <div id="ws-log" style="
+      background:white;
+      padding:1rem;
+      height:150px;
+      border-radius:8px;
+      overflow-y:auto;
+      border:1px solid #ddd;">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 ChatGPT Efficiency Analysis Project</p>
+      <p style="margin-top: 0.5rem; font-size: 0.9rem;">
+        Built with Node.js, MongoDB, WebSocket, and the ChatGPT API
+      </p>
+    </div>
+  </footer>
+
+  <!-- DYNAMIC ASSISTANT -->
+  <div id="assistant">
+    <strong>Guide Bot 💬</strong>
+    <span id="assistant-text">Welcome! Use the menu to explore each section.</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
